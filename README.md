@@ -3,13 +3,13 @@ File uploader with support for multiple hosts and progress reporting written in 
 
 ## Examples
 Upload single file to gofile:   
-`uploader_x64.exe --hosts gofile -f file.bin`
+`uploader-rs_x64.exe --hosts gofile -f file.bin`
 
 Upload two files to gofile and pixeldrain:   
-`uploader_x64.exe --hosts gofile pixeldrain -f file.bin file2.bin`
+`uploader-rs_x64.exe --hosts gofile pixeldrain -f file.bin file2.bin`
 
 Upload all files in `G:\stuff` to gofile recursively and write output template:   
-`uploader_x64.exe --hosts gofile -d G:\stuff -r --out-path links.txt`
+`uploader-rs_x64.exe --hosts gofile -d G:\stuff -r --out-path links.txt`
 
 ## Usage
 ```
