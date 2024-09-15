@@ -1,0 +1,8 @@
+# y = true
+[gofile]
+# Upload all files to to the same single folder.
+aio_upload = "y"
+
+[pixeldrain]
+# Required, see: https://pixeldrain.com/user/api_keys.
+api_key = ""
