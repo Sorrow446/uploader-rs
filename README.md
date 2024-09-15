@@ -32,4 +32,21 @@ Options:
 |[file.io](https://www.file.io/)|fileio|2 GB|-|yes, not implemented|
 |[Gofile](https://gofile.io/)|gofile|unlim|-|yes|
 |[Pixeldrain](https://pixeldrain.com/)|pixeldrain|20 GB, pro: 100 GB|API key, see config|yes, not implemented|
+
 More hosts will be implemented in time, not all hosts are straightforward unfortunately.
+
+## Template system
+Available vars: filename, file_path, host, newline, url.
+The newline var respects your OS.
+
+With `<file_path><newline><url><newline>`:
+```
+G:\file.bin
+https://gofile.io/d/8sb5m1
+```
+
+With just `<url><newline>`:
+```
+https://gofile.io/d/8sb5m1
+https://gofile.io/d/2av2o8
+```
