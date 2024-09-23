@@ -23,7 +23,7 @@ impl UploaderClient {
 
         let c = Client::builder()
             .default_headers(headers)
-            .timeout(Duration::from_secs(60))
+            .timeout(None)
             .build()?;
 
         let uploader_client = UploaderClient {
