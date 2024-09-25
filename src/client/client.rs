@@ -2,7 +2,6 @@ use std::collections::HashMap;
 use std::fs::File;
 use std::path::PathBuf;
 use std::error::Error;
-use std::time::Duration;
 use mime_guess::MimeGuess;
 use reqwest::blocking::{Client, multipart, Response as ReqwestResp};
 use reqwest::Error as ReqwestErr;
